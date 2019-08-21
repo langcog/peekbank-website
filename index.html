@@ -4,9 +4,15 @@ layout: default
 
 <div class="header-container jumbotron">
     <div class="container">
-        <h1>peekbank</h1>
-        <p>A flexible and reproducible interface to developmental eyetracking datasets</p>
-        <!-- <p><a class="btn btn-primary btn-lg" href="{{ "/docs/home/" | prepend: site.baseurl }}" role="button">Learn more</a></p> -->
+        <div class="row">
+            <div class="col-sm-2 text-center">
+                <img src="img/racoon.png" alt="" class="img-responsive" width="200">
+            </div>
+            <div class="col-sm-6 text-left">
+                <h1>peekbank</h1>
+                <p>A flexible and reproducible interface to developmental eyetracking datasets</p>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -18,22 +24,18 @@ layout: default
               eyetracking datasets.
               </p>
         </div>
-        <!-- <div class="col-md-6 text-center">
-            <img src="img/racoon.png" alt="" class="img-responsive">
-        </div> -->
     </div>
     <hr>
     <div class="row">
         <div class="col-sm-4">
             <h1 class="text-center"><i class="fa fa-pencil" aria-hidden="true"></i></h1>
-            <h3 class="text-center">Data Access Tutorial</h3>
-            <p>Get started accessing the data here!
-            </p>
+            <h3 class="text-center"><a href="{{ "/api_tutorial" | prepend: site.baseurl }}">Data Access Tutorial</a></h3>
+            <p class="text-center">Get started accessing the data here!</p>
         </div>
         <div class="col-sm-4">
             <h1 class="text-center"><i class="fa fa-cogs" aria-hidden="true"></i></h1>
-            <h3 class="text-center">Vizualizations</h3>
-            <p>Check out this sweet shiny app!</p>
+            <h3 class="text-center"><a href="{{ "/viz" | prepend: site.baseurl }}">Interactive Visualizations</a></h3>
+            <p class="text-center">Check out this sweet shiny app!</p>
         </div>
     </div>
 </div>
