@@ -5,10 +5,10 @@ description: >
   The peekbank Project -- Documentation and Tutorials
 lang: en-US
 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://peekbank.stanford.edu # the base hostname & protocol for your site
-git_address: https://github.com/langcog/peekbank-website
-git_edit_address: https://github.com/langcog/peekbank-website/blob/gh-pages
+baseurl: "" # the subpath of your site, here we use "" because we are using a virtual proxy via stanford to redirect to this site
+url: http://peekbank.stanford.edu # the base hostname & protocol for your site
+git_address: http://github.com/langcog/peekbank-website
+git_edit_address: http://github.com/langcog/peekbank-website/blob/gh-pages
 
 # theme options from https://bootswatch.com/
 # comment out this to use default Bootstrap
