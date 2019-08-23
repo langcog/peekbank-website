@@ -2,12 +2,11 @@
 title: peekbank
 email: your-email@domain.com
 description: >
-  The peekbank Project Website
-  Providing Documentation and Tutorials
+  The peekbank Project -- Documentation and Tutorials
 lang: en-US
 
 baseurl: "/peekbank-website" # the subpath of your site, e.g. /blog/
-url: https://aksakalli.github.io/jekyll-doc-theme # the base hostname & protocol for your site
+url: https://peekbank.stanford.edu # the base hostname & protocol for your site
 git_address: https://github.com/langcog/peekbank-website
 git_edit_address: https://github.com/langcog/peekbank-website/blob/gh-pages
 
