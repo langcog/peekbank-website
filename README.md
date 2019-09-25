@@ -26,6 +26,6 @@ This site serves shiny apps that are hosted on a separate EC2 instance and displ
 
 To set up a secure shiny server (without purchasing shiny server pro), we followed the steps outlined in this [post](https://www.r-bloggers.com/shiny-https-securing-shiny-open-source-with-ssl/).
 
-The domain name -- peekbank-shiny.com -- was purchased via namecheap and configured to point at the public IP for the Peekbank-shiny EC2 instance.
+The domain name -- peekbank-shiny.com -- was purchased via namecheap and configured to point at the public IP for the Peekbank-shiny EC2 instance following [these](https://u.osu.edu/walujo.1/2016/07/07/associate-namecheap-domain-to-amazon-ec2-instance/) steps.
 
 To connect to the shiny server via https, an SSL certificate was generated using [CertBot](https://certbot.eff.org/lets-encrypt/ubuntuxenial-apache) and linked to the domain peekbank-shiny.com

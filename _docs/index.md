@@ -1,50 +1,23 @@
 ---
-title: Welcome
+title: Welcome to the peekbank docs
 permalink: /docs/home/
 redirect_from: /docs/index.html
 ---
 
-## Getting started
 
-[GitHub Pages](https://pages.github.com) can automatically generate and serve the website for you.
-Let's say you have a username/organisation `my-org` and project `my-proj`; if you locate Jekyll source under `docs` folder of master branch in your repo `github.com/my-org/my-proj`, the website will be served on `my-org.github.io/my-proj`.
-The good thing about coupling your documentation with the source repo is, whenever you merge features with regarding content to master branch, it will also be published on the webpage instantly.
+## Getting Data
 
-1. Just [download the source](https://github.com/aksakalli/jekyll-doc-theme/archive/gh-pages.zip) into your repo under `docs` folder.
-2. Edit site settings in  `_config.yml` file according to your project. !!! `baseurl` should be your website's relative URI like `/my-proj` !!!
-3. Replace `favicon.ico` and `img/logonav.png` with your own logo.
+If you're ready to download some data and play with it on your own, check out the [data access tutorial]({{ "/docs/data-access" | prepend: site.baseurl }})
+to learn about the [peekbankr R package](https://github.com/langcog/peekbankr).
 
-## Writing content
+## Sharing Data
 
-### Docs
+If you have language-based, developmental eye-tracking datasets and would like to contribute to peekbank, check out the [guide to sharing data]({{ "/docs/data-sharing" | prepend: site.baseurl }}). 
 
-Docs are [collections](https://jekyllrb.com/docs/collections/) of pages stored under `_docs` folder. To create a new page:
+## About peekbank
 
-**1.** Create a new Markdown as `_docs/my-page.md` and write [front matter](https://jekyllrb.com/docs/frontmatter/) & content such as:
+To learn more about peekbank and the peekbank team, check out the [about]({{ "docs/about" | prepend: site.baseurl }}) page.
 
-```
----
-title: My Page
-permalink: /docs/my-page/
----
+## Contact us
 
-Hello World!
-```
-
-**2.** Add the pagename to `_data/docs.yml` file in order to list in docs navigation panel:
-
-```
-- title: My Group Title
-  docs:
-  - my-page
-```
-
-### Blog posts
-
-Add a new Markdown file such as `2017-05-09-my-post.md` and write the content similar to other post examples.
-
-### Pages
-
-The homepage is located under `index.html` file. You can change the content or design completely different welcome page for your taste. (You can use [bootstrap components](http://getbootstrap.com/components/))
-
-In order to add a new page, create a new `.html` or `.md` (markdown) file under root directory and link it in `_includes/topnav.html`.
+If you have any questions, discover issues with peekbank, or have features that you would love to add, check out the [contact us]({{ "docs/contact-us" | prepend: site.baseurl }}) page to find the relevant contact information.
