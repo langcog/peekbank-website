@@ -16,8 +16,8 @@ If you have language-based, developmental eye-tracking datasets and would like t
 
 ## About peekbank
 
-To learn more about peekbank and the peekbank team, check out the [about]({{ "docs/about" | prepend: site.baseurl }}) page.
+To learn more about peekbank and the peekbank team, check out the [about us]({{ "/docs/about-us" | prepend: site.baseurl }}) page.
 
 ## Contact us
 
-If you have any questions, discover issues with peekbank, or have features that you would love to add, check out the [contact us]({{ "docs/contact-us" | prepend: site.baseurl }}) page to find the relevant contact information.
+If you have any questions, discover issues with peekbank, or have features that you would love to add, check out the [contact us]({{ "/docs/contact-us" | prepend: site.baseurl }}) page to find the relevant contact information.
