@@ -129,7 +129,7 @@ TODO
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="https://martinzettersten.weebly.com/">
+    <a target="_blank" href="https://mzettersten.github.io/">
       <img src="../../img/martin.jpeg" alt="Martin" width="600" height="400">
     </a>
     <div class="desc">Martin Zetterstein</div>
