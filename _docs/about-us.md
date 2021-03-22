@@ -132,6 +132,6 @@ TODO
     <a target="_blank" href="https://mzettersten.github.io/">
       <img src="../../img/martin.jpeg" alt="Martin" width="600" height="400">
     </a>
-    <div class="desc">Martin Zetterstein</div>
+    <div class="desc">Martin Zettersten</div>
   </div>
 </div>
