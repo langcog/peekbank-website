@@ -2,9 +2,9 @@
 title: Documentation
 ---
 
-## Peekbank Framework
-
 <img align="right" width="360" height="540" src="../../img/peekbankflowchartv6.png">
+
+## Peekbank Framework
 
 The Peekbank data framework consists of three components (see Figure on right): 
 
