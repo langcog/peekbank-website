@@ -36,7 +36,7 @@ defaults:
     path: _docs
     type: docs
   values:
-    layout: docs
+    layout: docs_no_navbar
     sectionid: docs
     seo:
       type: "WebPage"
