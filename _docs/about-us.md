@@ -59,7 +59,11 @@ In addition, we plan to release new dated versions periodically to facilitate re
 
 ## Citation policy
 
-TODO
+If you use childes-db to access CHILDES in your research, please cite:
+
+Zettersten, M., Bergey, C. A., Bhatt, N., Boyce, V., Braginsky, M., Carstensen, A., deMayo, B., Kachergiis, G., Lewis, M., Long, B., MacDonald, K., Mankewitz, J., Meylan, S. C., Saleh, A. N., Schneider, R. M., Tsui, A., Uner, S., Xu, T. L., Yurovsky, D., & Frank, M.C. (under review). Peekbank: Exploring children's word recognition through an open, large-scale repository for developmental eye-tracking data.
+
+Since Peekbank is dynamic, we recommend that you list the date of download for your data in your manuscript. 
 
 ## Meet the peekbank team
 

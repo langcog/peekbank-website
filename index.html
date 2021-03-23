@@ -18,24 +18,32 @@ layout: default
 
 <div class="container">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md">
             <h2 class="header-light regular-pad">What is peekbank?</h2>
               <p class="lead">peekbank is a flexible and reproducible interface to developmental
               eyetracking datasets.
               </p>
+              <p>
+                The Peekbank project is an open database storing eye-tracking datasets on children's word recognition in a well-documented, easily accessible, tabular format. It also provides processing tools for standardizing eye-tracking data across data sources (<a target="_blank" href="https://github.com/langcog/peekds" style="color:#3399f3">peekds</a> R package), interfaces for accessing the database (<a target="_blank" href="https://langcog.github.io/peekbankr/index.html" style="color:#3399f3">peebankr</a> R package), and applications for visualizing the data (<a target="_blank" href="https://peekbank-shiny.com/" style="color:#3399f3">Peekbank Shiny App</a>). 
+            </p>
         </div>
     </div>
     <hr>
     <div class="row">
         <div class="col-sm-4">
-            <h1 class="text-center"><i class="fa fa-pencil" aria-hidden="true"></i></h1>
+            <h1 class="text-center"><i class="fa fa-database" aria-hidden="true"></i></h1>
             <h3 class="text-center"><a href="{{ "/docs/data-access" | prepend: site.baseurl }}">Data Access Tutorial</a></h3>
-            <p class="text-center">Get started accessing the data here!</p>
+            <p class="text-center">Get started accessing the data here</p>
         </div>
         <div class="col-sm-4">
-            <h1 class="text-center"><i class="fa fa-cogs" aria-hidden="true"></i></h1>
+            <h1 class="text-center"><i class="fa fa-bar-chart" aria-hidden="true"></i></h1>
             <h3 class="text-center"><a href="{{ "/viz" | prepend: site.baseurl }}">Interactive Visualizations</a></h3>
-            <p class="text-center">Check out this sweet shiny app!</p>
+            <p class="text-center">Dynamically generate visualizations of the data</p>
+        </div>
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-pencil" aria-hidden="true"></i></h1>
+            <h3 class="text-center"><a href="{{ "/docs/ddocumentation" | prepend: site.baseurl }}">Documentation</a></h3>
+            <p class="text-center">Further information about the database</p>
         </div>
     </div>
 </div>

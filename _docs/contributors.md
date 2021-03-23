@@ -1,7 +1,7 @@
 ---
 title: Contributors
-permalink: /docs/contributors/
 ---
+
 
 Thank you to all of the generous researchers who have contributed data to Peekbank!
 
