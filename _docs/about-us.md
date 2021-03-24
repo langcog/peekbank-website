@@ -57,13 +57,13 @@ The peekbank project aims to make developmental eye-tracking data more accessibl
 In addition, we plan to release new dated versions periodically to facilitate reproducibility. We are also supporting an API via the [peekbankr R package](https://github.com/langcog/peekbankr), which allows users to access the data in peekbank without having to write complex SQL queries.
 
 
-## Citation policy
+<!-- ## Citation policy
 
 If you use the Peekbank database in your research, please cite:
 
-Zettersten, M., Bergey, C. A., Bhatt, N., Boyce, V., Braginsky, M., Carstensen, A., deMayo, B., Kachergiis, G., Lewis, M., Long, B., MacDonald, K., Mankewitz, J., Meylan, S. C., Saleh, A. N., Schneider, R. M., Tsui, A., Uner, S., Xu, T. L., Yurovsky, D., & Frank, M.C. (under review). Peekbank: Exploring children's word recognition through an open, large-scale repository for developmental eye-tracking data.
+Zettersten, M., Bergey, C. A., Bhatt, N., Boyce, V., Braginsky, M., Carstensen, A., deMayo, B., Kachergis, G., Lewis, M., Long, B., MacDonald, K., Mankewitz, J., Meylan, S. C., Saleh, A. N., Schneider, R. M., Tsui, A., Uner, S., Xu, T. L., Yurovsky, D., & Frank, M.C. (under review). Peekbank: Exploring children's word recognition through an open, large-scale repository for developmental eye-tracking data.
 
-Since Peekbank is dynamic, we recommend that you list the date of download for your data in your manuscript. 
+Since Peekbank is dynamic, we recommend that you list the date of download for your data in your manuscript. -->
 
 ## Meet the peekbank team
 

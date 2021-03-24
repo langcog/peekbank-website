@@ -1,0 +1,27 @@
+---
+title: "Peekbank Datasets"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE, warning=F, message=F}
+library(peekbankr)
+library(tidyverse)
+library(DT)
+
+## create datatable
+datasets <- peekbankr::get_datasets()
+admins <- peekbankr::get_administrations()
+subjects <- peekbankr::get_subjects()
+```
+
+```{r datatable, message=F, echo=FALSE}
+left_join(subjects,admins) %>%
+  left_join(datasets) %>%
+  group_by(dataset_name, cite) %>%
+  summarise(n = length(unique(subject_id)), 
+            min_age_months = min(age, na.rm=TRUE), 
+            max_age_months = max(age, na.rm=TRUE)) %>%
+  DT::datatable(options=list(pageLength = 5,lengthMenu = c(5, 10, 15, 20)))
+```
+
