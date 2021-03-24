@@ -22,7 +22,6 @@ The <code>peekbankr</code> library (R) provides an application programming inter
 ## Data Schema
 
 
-
 ## Data Codebook
 
 
