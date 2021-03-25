@@ -10,14 +10,17 @@ Once you have Ruby and gem, then:
 
 ```bash
 # install bundler
-gem install bundler
+`gem install bundler`
 
 # clone the project
-git clone https://github.com/langcog/peekbank-website.git
-cd peekbank-website
+`git clone https://github.com/langcog/peekbank-website.git`
+`cd peekbank-website`
+
+# install gems with bundler
+`bundle install`
 
 # run jekyll with dependencies
-bundle exec jekyll serve
+`bundle exec jekyll serve`
 ```
 
 ## How to host Shiny Apps
