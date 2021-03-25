@@ -1,11 +1,10 @@
 - title: Getting Started
   docs:
   - home
-  - contributors
   - data-access
-  - data-sharing
+  - contributors
+  - documentation
   - about-us
-  - contact-us
 
 # - title: Examples
 #   docs:
