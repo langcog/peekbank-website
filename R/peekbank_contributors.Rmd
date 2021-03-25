@@ -22,16 +22,55 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE)
 ```{r, include=FALSE, eval=FALSE}
 library(peekbankr)
 
+con <- connect_to_peekbank(dbname = "peekbank_dev") # pull from dev until prod brought up to date
+
 ## create datatable
-datasets <- peekbankr::get_datasets()
-admins <- peekbankr::get_administrations()
-subjects <- peekbankr::get_subjects()
+datasets <- peekbankr::get_datasets(connection=con) %>% collect()
+#datasets <- peekbankr::get_datasets()
+admins <- peekbankr::get_administrations(connection=con) %>% collect()
+#admins <- peekbankr::get_administrations()
+subjects <- peekbankr::get_subjects(connection=con) %>% collect()
+#subjects <- peekbankr::get_subjects()
+trial_types <-  peekbankr::get_trial_types(connection=con) %>% collect()
+#load language codes
+iso_codes <- read_csv("iso_language_codes.csv")
+#trial_types <-  peekbankr::get_trial_types()
 dataset_info <- left_join(subjects, admins) %>%
   left_join(datasets) %>%
   group_by(dataset_name, cite) %>%
   summarise(n = length(unique(subject_id)), 
             min_age_months = min(age, na.rm = TRUE), 
-            max_age_months = max(age, na.rm = TRUE)) #%>%
+            max_age_months = max(age, na.rm = TRUE),
+            native_language = names(which.max(table(native_language)))) %>%
+  #split language into multiple columns (only two expected; expand if dataset acquires more)
+  separate(native_language,into=c("native_language_1","native_language_2"),sep=", ") %>%
+  #join based on ISO standard
+  left_join(iso_codes,by=c("native_language_1"="iso_code")) %>%
+  left_join(iso_codes,by=c("native_language_2"="iso_code")) %>%
+  rename(
+    language_name_1 = language_name.x,
+    language_name_2 = language_name.y
+  ) %>%
+  #clean up some naming issues
+  mutate(
+    language_name_1 = case_when(
+      language_name_1 == "Spanish; Castilian" ~ "Spanish",
+      TRUE ~ language_name_1
+    )) %>%
+  #unite names
+  mutate(
+    language = case_when(
+      !is.na(language_name_2) ~ paste(language_name_1,language_name_2,sep=", "),
+      TRUE ~ language_name_1)) %>%
+  # native language special cases
+  mutate(
+    language = case_when(
+      dataset_name == "casillas_tseltal_2015" ~ "Tseltal",
+      TRUE ~ language)) %>%
+  #convert age range into one column
+  mutate(age_range_months= paste(min_age_months,max_age_months,sep=" - ")) %>%
+  
+  select(dataset_name, cite,n,min_age_months,max_age_months,language) #%>%
   # mutate(cite = str_replace_all(cite, "\\x96", "–"))
 saveRDS(dataset_info, "dataset_info.Rds")
 ```
@@ -40,7 +79,8 @@ saveRDS(dataset_info, "dataset_info.Rds")
 dataset_info <- readRDS("dataset_info.Rds")
 pretty_names <- colnames(dataset_info) %>%
   str_replace_all("_", " ") %>%
-  str_to_sentence()
+  str_to_sentence() %>%
+  str_replace_all("months","(months)")
 DT::datatable(dataset_info, colnames = pretty_names, rownames = FALSE,
               width = "100%", style = "bootstrap",
               options = list(pageLength = 10,lengthMenu = c(5, 10, 15, 20)))
