@@ -31,10 +31,8 @@ admins <- peekbankr::get_administrations(connection=con) %>% collect()
 #admins <- peekbankr::get_administrations()
 subjects <- peekbankr::get_subjects(connection=con) %>% collect()
 #subjects <- peekbankr::get_subjects()
-trial_types <-  peekbankr::get_trial_types(connection=con) %>% collect()
 #load language codes
 iso_codes <- read_csv("iso_language_codes.csv")
-#trial_types <-  peekbankr::get_trial_types()
 dataset_info <- left_join(subjects, admins) %>%
   left_join(datasets) %>%
   group_by(dataset_name, cite) %>%
