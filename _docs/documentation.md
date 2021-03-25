@@ -30,11 +30,11 @@ The <code>peekbankr</code> library (R) provides an application programming inter
 The Peekbank project consists of the following repositories and tools.
 
 - Peekbank repository with raw and standardized datasets: [https://osf.io/pr6wu/](https://osf.io/pr6wu/)
-- Peekbank data import scripts: [http://github.com/langcog/peekbank-data-import](http://github.com/langcog/peekbank-data-import)
-- Peek data standard and data import functions: [http://github.com/langcog/peekds](http://github.com/langcog/peekds)
-- R package for Accessing the database: [http://github.com/langcog/peekds](https://github.com/langcog/peekbankr/)
-- Peekbank database management: [http://github.com/langcog/peekds](http://github.com/langcog/peekbank)
-- Interactive data visualizations using Shiny: [http://github.com/langcog/peekbank-shiny](http://github.com/langcog/peekbank-shiny)
-- Website frontend: [http://github.com/langcog/peekbank-website](http://github.com/langcog/peekbank-website)
+- Peekbank data import scripts: [http://github.com/langcog/peekbank-data-import](https://github.com/langcog/peekbank-data-import)
+- Peek data standard and data import functions: [http://github.com/langcog/peekds](https://github.com/langcog/peekds)
+- R package for Accessing the database: [https://github.com/langcog/peekbankr](https://github.com/langcog/peekbankr/)
+- Peekbank database management: [https://github.com/langcog/peekbank](https://github.com/langcog/peekbank)
+- Interactive data visualizations using Shiny: [http://github.com/langcog/peekbank-shiny](https://github.com/langcog/peekbank-shiny)
+- Website frontend: [http://github.com/langcog/peekbank-website](https://github.com/langcog/peekbank-website)
 
 
