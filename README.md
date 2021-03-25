@@ -4,7 +4,7 @@ Built using [the jekyll-doc-theme](https://aksakalli.github.io/jekyll-doc-theme/
 
 ## Running locally to make changes to site
 
-You need Ruby and gem before starting. Follow the instructions [here](https://jekyllrb.com/docs/installation/).
+You need Ruby and gem before starting. Follow the instructions [here](https://jekyllrb.com/docs/installation/). For OS X Big Sur, follow the instructions for installing with `rbenv` [here](https://jekyllrb.com/docs/installation/macos/).
 
 Once you have Ruby and gem, then:
 
