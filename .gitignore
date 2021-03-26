@@ -6,3 +6,4 @@ _site
 vendor/bundle
 img/.DS_Store
 .DS_Store
+R/.Rhistory
