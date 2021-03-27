@@ -12,16 +12,16 @@ The Peekbank data framework consists of three components (see Figure on right):
 2. populating a relational database
 3. providing an interface to the database 
 
-The code used to process raw datasets is hosted in <code>peekbank-data-import</code> and processed data files are hosted on the public [Peekbank OSF repository](https://osf.io/pr6wu/).
+The code used to process raw datasets is hosted in <a target="_blank" href="https://github.com/langcog/peekbank-data-import" style="color:#3399f3"><code>peekbank-data-import</code></a> and processed data files are hosted on the public <a target="_blank" href="https://osf.io/pr6wu/" style="color:#3399f3">Peekbank OSF repository</a>.
 
-The <code>peekds</code> library helps researchers convert and validate existing datasets to use the relational format of the database.
+The <a target="_blank" href="https://github.com/langcog/peekds" style="color:#3399f3"><code>peekds</code></a> library helps researchers convert and validate existing datasets to use the relational format of the database.
 
-The <code>peekbank</code> module (Python) creates a database with the relational schema and populates it with the standardized datasets produced by peekds. 
+The <a target="_blank" href="https://github.com/langcog/peekbank" style="color:#3399f3"><code>peekbank</code></a> module (Python) creates a database with the relational schema and populates it with the standardized datasets produced by peekds. 
 The database is implemented in MySQL, an industry standard relational database, which may be accessed by a variety of programming languages over the internet. 
 
-The <code>peekbankr</code> library (R) provides an application programming interface, or API, that offers high-level abstractions for accessing data in Peekbank.
+The <a target="_blank" href="https://langcog.github.io/peekbankr/index.html" style="color:#3399f3"><code>peebankr</code></a> library (R) provides an application programming interface, or API, that offers high-level abstractions for accessing data in Peekbank.
 
-The <code>peekbank-shiny</code> app provides a tool for interactively visualizing the data.
+The <a target="_blank" href="https://github.com/langcog/peekbank-shiny" style="color:#3399f3"><code>peekbank-shiny</code></a> app provides a tool for interactively visualizing the data.
 
 </div>
 
