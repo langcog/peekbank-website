@@ -52,9 +52,11 @@ div.desc {
 }
 </style>
 
-The peekbank project aims to make developmental eye-tracking data more accessible for sharing and reuse. We do this by reducing the amount of preprocessing necessary to perform typical analyses and by storing data in a common, tidy format that allows for easy cross dataset comparisons. 
+## About Peekbank
 
-In addition, we plan to release new dated versions periodically to facilitate reproducibility. We are also supporting an API via the [peekbankr R package](https://github.com/langcog/peekbankr), which allows users to access the data in peekbank without having to write complex SQL queries.
+The Peekbank project aims to make developmental eye-tracking data more accessible for sharing and reuse. We do this by reducing the amount of preprocessing necessary to perform typical analyses and by storing data in a common, tidy format that allows for easy cross dataset comparisons. 
+
+In addition, we plan to release new dated versions periodically to facilitate reproducibility. We are also supporting an API via the <a target="_blank" href="https://langcog.github.io/peekbankr/index.html" style="color:#3399f3"><code>peebankr</code></a> R package, which allows users to access the data in Peekbank without having to write complex SQL queries.
 
 
 <!-- ## Citation policy
@@ -65,7 +67,7 @@ Zettersten, M., Bergey, C. A., Bhatt, N., Boyce, V., Braginsky, M., Carstensen, 
 
 Since Peekbank is dynamic, we recommend that you list the date of download for your data in your manuscript. -->
 
-## Meet the peekbank team
+## Meet the Peekbank team
 
 <div class="responsive">
   <div class="gallery">
