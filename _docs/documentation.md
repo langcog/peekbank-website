@@ -73,4 +73,4 @@ The Peekbank project consists of the following repositories and tools.
 
 Peekbank is open source and under active development. If you run encounter a problem, please file an issue in the GitHub Issues page of the appropriate repository.
 
-
+If you would like to contact us directly, email us at peekbank-dev[at]lists.stanford.edu.

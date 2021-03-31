@@ -29,7 +29,7 @@ div.desc {
 .responsive {
   padding: 6px 6px;
   float: left;
-  width: 16.66666%;
+  width: 20%;
 }
 
 @media only screen and (max-width: 700px) {
@@ -75,6 +75,13 @@ Since Peekbank is dynamic, we recommend that you list the date of download for y
       <img src="../../img/claire.jpg" alt="Claire">
     </a>
     <div class="desc">Claire Bergey</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <a><img src="../../img/naiti.jpeg" alt="Naiti" height="200" width="185"></a>
+    <div class="desc">Naiti Bhatt</div>
   </div>
 </div>
 
@@ -171,7 +178,7 @@ Since Peekbank is dynamic, we recommend that you list the date of download for y
 
 <div class="responsive">
   <div class="gallery">
-      <a><img src="../../img/sarp.jpg" alt="Sarp"></a>
+      <a><img src="../../img/sarp.jpg" alt="Sarp"  height="200" width="185"></a>
     <div class="desc">Sarp Uner</div>
   </div>
 </div>
