@@ -49,7 +49,7 @@ The schema consists of a set of tables, each tracking different types of informa
 
 </div>
 
-<p align="center"><img width="80%" src="../../img/schema_2.png"></p>
+<p align="center"><img width="80%" src="../../img/schema_3.png"></p>
 
 ## Data Codebook
 
