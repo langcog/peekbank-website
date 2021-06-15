@@ -1,0 +1,8 @@
+{
+  "host":"34.210.173.143",
+  "current":"peekbank",
+  "supported": ["peekbank"],
+  "historical":[],
+  "user": "reader",
+  "password": "gazeofraccoons"
+}
