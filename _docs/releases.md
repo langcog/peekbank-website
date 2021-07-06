@@ -15,7 +15,7 @@ We release new versions of the Peekbank database as new data becomes available. 
 		<tr>
 			<td><h4 style="color:red;">2021.1 </h4><a name="2021.1"></a></td>
 			<td>  &nbsp;&nbsp;&nbsp;</td>
-			<td><b>Initial release</b>. Peekbank Version for reproducing Zettersten et al. (2021), <i>CogSci</i>, <a href="https://psyarxiv.com/ep693" target="_blank">https://psyarxiv.com/ep693</a>.</td>
+			<td><b>Initial release</b>. Peekbank version for reproducing Zettersten et al. (2021), <i>CogSci</i>, <a href="https://psyarxiv.com/ep693" target="_blank">https://psyarxiv.com/ep693</a>.</td>
 		</tr>
 	</table>
 </div>
