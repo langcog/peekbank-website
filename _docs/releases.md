@@ -6,7 +6,7 @@ title: Releases
 
 ## Releases
 
-We release new versions of the Peekbank database as new data becomes available. Visualizations and the <code>peekbankr</code> package will always use the most recent database version by default. To ensure reproducibility, we maintain database versions associated with each publication released by the Peekbank team. The R API <code>peekbankr</code> can be directed to use any recent database version by using the <code>db_version</code> parameter.  
+We release new versions of the Peekbank database as new data becomes available. To ensure reproducibility, we maintain database versions associated with each publication released by the Peekbank team. Visualizations and the <code>peekbankr</code> package will always use the most recent database version by default. The R API <code>peekbankr</code> can be directed to use any recent database version by using the <code>db_version</code> parameter.  
 
 &nbsp;
 
