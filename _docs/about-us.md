@@ -58,6 +58,11 @@ The Peekbank project aims to make developmental eye-tracking data more accessibl
 
 In addition, we plan to release new dated versions periodically to facilitate reproducibility. We are also supporting an API via the <a target="_blank" href="https://langcog.github.io/peekbankr/index.html" style="color:#3399f3"><code>peebankr</code></a> R package, which allows users to access the data in Peekbank without having to write complex SQL queries.
 
+## Publications
+
+Zettersten, M., Bergey, C. A., Bhatt, N., Boyce, V., Braginsky, M., Carstensen, A., deMayo, B., Kachergiis, G., Lewis, M., Long, B., MacDonald, K., Mankewitz, J., Meylan, S. C., Saleh, A. N., Schneider, R. M., Tsui, A., Uner, S., Xu, T. L., Yurovsky, D., & Frank, M.C. (2021). <b>Peekbank: Exploring children’s word recognition through an open, large-scale repository for developmental eye-tracking data.</b> *Proceedings of the 43rd Annual Conference of the Cognitive Science Society*. [[preprint]](https://psyarxiv.com/ep693/){:target="\_blank"}
+
+&nbsp;
 
 <!-- ## Citation policy
 
