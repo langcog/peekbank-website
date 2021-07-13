@@ -29,7 +29,7 @@ div.desc {
 .responsive {
   padding: 6px 6px;
   float: left;
-  width: 20%;
+  width: 16.666666%;
 }
 
 @media only screen and (max-width: 700px) {
@@ -110,6 +110,13 @@ Since Peekbank is dynamic, we recommend that you list the date of download for y
 
 <div class="responsive">
   <div class="gallery">
+      <img src="../../img/kunal.jpg" alt="Kunal Handa" height="200" width="185">
+    <div class="desc">Kunal Handa</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
     <a target="_blank" href="http://www.kachergis.com/">
       <img src="../../img/george.jpg" alt="George">
     </a>
@@ -128,6 +135,15 @@ Since Peekbank is dynamic, we recommend that you list the date of download for y
 
 <div class="responsive">
   <div class="gallery">
+    <a target="_blank" href="https://www.brialong.com/">
+      <img src="../../img/bria.jpg" alt="Bria">
+    </a>
+    <div class="desc">Bria Long</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
     <a target="_blank" href="https://kemacdonald.com">
       <img src="../../img/km_2018.jpg" alt="Kyle">
     </a>
@@ -141,6 +157,15 @@ Since Peekbank is dynamic, we recommend that you list the date of download for y
       <img src="../../img/jess.jpg" alt="Jess">
     </a>
     <div class="desc">Jessica Mankewitz</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://profiles.stanford.edu/virginia-marchman">
+      <img src="../../img/virginia.jpg" alt="Virginia Marchman" height="200" width="185">
+    </a>
+    <div class="desc">Virginia Marchman</div>
   </div>
 </div>
 
