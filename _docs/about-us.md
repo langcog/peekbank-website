@@ -180,9 +180,7 @@ Since Peekbank is dynamic, we recommend that you list the date of download for y
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="../../assets/pdf/SalehCV-2021-03-24.pdf">
       <img src="../../img/annissa.jpg" alt="Annissa">
-    </a>
     <div class="desc">Annissa Saleh</div>
   </div>
 </div>
