@@ -41,7 +41,7 @@ The first part of this command (<code>mysqldump</code>) outputs the content of t
 	    <td>$PASSWORD_FROM_JSON</td><td>"password" in JSON</td>
 	  </tr>
 	  <tr>
-	    <td>$DATABASES</td><td>{2020.1, peekbank_dev}</td>
+	    <td>$DATABASES</td><td>{2021.1, peekbank_dev}</td>
 	  </tr>
 	  <tr>
 	    <td>$LOCAL_USER</td><td>Local MySQL user (possibly <i>root</i>)</td>

@@ -29,7 +29,7 @@ div.desc {
 .responsive {
   padding: 6px 6px;
   float: left;
-  width: 20%;
+  width: 16.666666%;
 }
 
 @media only screen and (max-width: 700px) {
@@ -60,7 +60,7 @@ In addition, we plan to release new dated versions periodically to facilitate re
 
 ## Publications
 
-Zettersten, M., Bergey, C. A., Bhatt, N., Boyce, V., Braginsky, M., Carstensen, A., deMayo, B., Kachergiis, G., Lewis, M., Long, B., MacDonald, K., Mankewitz, J., Meylan, S. C., Saleh, A. N., Schneider, R. M., Tsui, A., Uner, S., Xu, T. L., Yurovsky, D., & Frank, M.C. (2021). <b>Peekbank: Exploring children’s word recognition through an open, large-scale repository for developmental eye-tracking data.</b> *Proceedings of the 43rd Annual Conference of the Cognitive Science Society*. [[preprint]](https://psyarxiv.com/ep693/){:target="\_blank"}
+Zettersten, M., Bergey, C. A., Bhatt, N., Boyce, V., Braginsky, M., Carstensen, A., deMayo, B., Kachergis, G., Lewis, M., Long, B., MacDonald, K., Mankewitz, J., Meylan, S. C., Saleh, A. N., Schneider, R. M., Tsui, A., Uner, S., Xu, T. L., Yurovsky, D., & Frank, M.C. (2021). <b>Peekbank: Exploring children’s word recognition through an open, large-scale repository for developmental eye-tracking data.</b> *Proceedings of the 43rd Annual Conference of the Cognitive Science Society*. [[preprint]](https://psyarxiv.com/ep693/){:target="\_blank"}
 
 &nbsp;
 
@@ -110,6 +110,13 @@ Since Peekbank is dynamic, we recommend that you list the date of download for y
 
 <div class="responsive">
   <div class="gallery">
+      <img src="../../img/kunal.jpg" alt="Kunal Handa" height="200" width="185">
+    <div class="desc">Kunal Handa</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
     <a target="_blank" href="http://www.kachergis.com/">
       <img src="../../img/george.jpg" alt="George">
     </a>
@@ -123,6 +130,15 @@ Since Peekbank is dynamic, we recommend that you list the date of download for y
       <img src="../../img/molly.jpg" alt="Molly">
     </a>
     <div class="desc">Molly Lewis</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://www.brialong.com/">
+      <img src="../../img/bria.jpg" alt="Bria">
+    </a>
+    <div class="desc">Bria Long</div>
   </div>
 </div>
 
@@ -146,6 +162,15 @@ Since Peekbank is dynamic, we recommend that you list the date of download for y
 
 <div class="responsive">
   <div class="gallery">
+    <a target="_blank" href="https://profiles.stanford.edu/virginia-marchman">
+      <img src="../../img/virginia.jpg" alt="Virginia Marchman" height="200" width="185">
+    </a>
+    <div class="desc">Virginia Marchman</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
     <a target="_blank" href="https://stephanmeylan.com/">
       <img src="../../img/stephan.jpg" alt="Stephan">
     </a>
@@ -155,9 +180,7 @@ Since Peekbank is dynamic, we recommend that you list the date of download for y
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="../../assets/pdf/SalehCV-2021-03-24.pdf">
       <img src="../../img/annissa.jpg" alt="Annissa">
-    </a>
     <div class="desc">Annissa Saleh</div>
   </div>
 </div>
