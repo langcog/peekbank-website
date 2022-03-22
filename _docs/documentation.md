@@ -19,7 +19,7 @@ The <a target="_blank" href="https://github.com/langcog/peekds" style="color:#33
 The <a target="_blank" href="https://github.com/langcog/peekbank" style="color:#3399f3"><code>peekbank</code></a> module (Python) creates a database with the relational schema and populates it with the standardized datasets produced by peekds. 
 The database is implemented in MySQL, an industry standard relational database, which may be accessed by a variety of programming languages over the internet. 
 
-The <a target="_blank" href="https://langcog.github.io/peekbankr/index.html" style="color:#3399f3"><code>peebankr</code></a> library (R) provides an application programming interface, or API, that offers high-level abstractions for accessing data in Peekbank.
+The <a target="_blank" href="https://langcog.github.io/peekbankr/index.html" style="color:#3399f3"><code>peekbankr</code></a> library (R) provides an application programming interface, or API, that offers high-level abstractions for accessing data in Peekbank.
 
 The <a target="_blank" href="https://github.com/langcog/peekbank-shiny" style="color:#3399f3"><code>peekbank-shiny</code></a> app provides a tool for interactively visualizing the data.
 
