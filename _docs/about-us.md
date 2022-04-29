@@ -60,6 +60,8 @@ In addition, we plan to release new dated versions periodically to facilitate re
 
 ## Publications
 
+Zettersten, M., Yurovsky, D., Xu, T. L., Uner, S., Tsui, A.S.T., Schneider, R. M., Saleh, A. N., Meylan, S. C., Marchman, V., Mankewitz, J., MacDonald, K., Long, B., Lewis, M., Kachergis, G., Handa, K., deMayo, B., Carstensen, A., Braginsky, M., Boyce, V., Bhatt, N., Bergey, C. A., & Frank, M.C. (2022). Peekbank: An open, large-scale repository for developmental eye-tracking data of children’s word recognition. *PsyArXiv* [[preprint]](https://psyarxiv.com/tgnzv){:target="\_blank"}
+
 Zettersten, M., Bergey, C. A., Bhatt, N., Boyce, V., Braginsky, M., Carstensen, A., deMayo, B., Kachergis, G., Lewis, M., Long, B., MacDonald, K., Mankewitz, J., Meylan, S. C., Saleh, A. N., Schneider, R. M., Tsui, A., Uner, S., Xu, T. L., Yurovsky, D., & Frank, M.C. (2021). <b>Peekbank: Exploring children’s word recognition through an open, large-scale repository for developmental eye-tracking data.</b> *Proceedings of the 43rd Annual Conference of the Cognitive Science Society*. [[preprint]](https://psyarxiv.com/ep693/){:target="\_blank"}
 
 &nbsp;
