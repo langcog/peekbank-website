@@ -20,6 +20,6 @@ To contribute your data, please email peekbank-dev[at]lists.stanford.edu. For fu
 
 ## Current Datasets
 
-Below is a list of all datasets currently available in Peekbank (as of 4/20/21).
+Below is a list of all datasets currently available in Peekbank (as of 4/29/22).
 
 <iframe src="../../R/peekbank_contributors.html" style="height: 800px; width: 100%; border: none"></iframe>
