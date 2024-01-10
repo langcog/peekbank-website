@@ -15,7 +15,7 @@ We release new versions of the Peekbank database as new data becomes available. 
 		<tr>
 			<td><h4 style="color:red;">2022.1 </h4><a name="2022.1"></a></td>
 			<td>  &nbsp;&nbsp;&nbsp;</td>
-			<td>Peekbank version for reproducing Zettersten et al. (2022), <i>under review</i>, <a href="https://psyarxiv.com/tgnzv" target="_blank">https://psyarxiv.com/tgnzv</a>.</td>
+			<td>Peekbank version for reproducing Zettersten et al. (2023), <i>Behavior Research Methods</i>, <a href="https://doi.org/10.3758/s13428-022-01906-4" target="_blank">https://doi.org/10.3758/s13428-022-01906-4</a>.</td>
 		</tr>
 		<tr>
 			<td><h4 style="color:red;">2021.1 </h4><a name="2021.1"></a></td>
